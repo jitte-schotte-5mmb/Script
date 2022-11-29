@@ -1,0 +1,62 @@
+body{
+    background-image: url(images/coldplay14.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.719);
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: antiquewhite;
+
+}
+#home{
+    background-color: rgba(17, 17, 17, 0.527);
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: wheat;
+}
+#nummers{
+    background-color: rgba(0, 0, 0, 0.527);
+    color: wheat;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#leden{
+    background-color: rgba(1, 1, 1, 0.527);
+    color: wheat;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#foto{
+    background-color: rgba(8, 49, 46, 0.527);
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+footer{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+nav li{
+    display: inline;
+    color: rgb(0, 178, 254);
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 20%;
+}
