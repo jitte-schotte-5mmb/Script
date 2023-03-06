@@ -108,3 +108,50 @@ figure img{
     font-size: 2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+footer {
+    padding: 5vw 10vw;
+    background-color: gainsboro;
+    color: black;
+}
+
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+}
+
+footer ul li a{
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+ 
+footer div a{
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+footer div input{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer i {
+    margin-left: 1ch;
+    color: darkorange;
+    font-size: 1.6rem;
+}
+
+footer i:hover {
+    transform: scale(1.1);
+}
