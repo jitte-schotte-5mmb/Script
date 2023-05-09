@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 406.52 229.79">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 24.36px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #1d1d1b;
+      }
+
+      .cls-1, .cls-3 {
+        font-family: CooperBlack, 'Cooper Black';
+      }
+
+      .cls-2 {
+        font-family: Bauhaus93, 'Bauhaus 93';
+        font-size: 40.59px;
+      }
+
+      .cls-4, .cls-3 {
+        fill: #fff;
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        font-size: 129.9px;
+      }
+    </style>
+  </defs>
+  <g id="C">
+    <text class="cls-3" transform="translate(274.22 191.72)"><tspan x="0" y="0">C</tspan></text>
+  </g>
+  <g id="I">
+    <text class="cls-3" transform="translate(247.04 191.72)"><tspan x="0" y="0">I</tspan></text>
+  </g>
+  <g id="S">
+    <text class="cls-3" transform="translate(180.76 191.72)"><tspan x="0" y="0">S</tspan></text>
+  </g>
+  <g id="U">
+    <text class="cls-3" transform="translate(94.56 196.19)"><tspan x="0" y="0">U</tspan></text>
+  </g>
+  <g id="M">
+    <text class="cls-3" transform="translate(4.04 196.19)"><tspan x="0" y="0">M</tspan></text>
+  </g>
+  <g id="T">
+    <text class="cls-3" transform="translate(314.44 109.94)"><tspan x="0" y="0">T</tspan></text>
+  </g>
+  <g id="S-2" data-name="S">
+    <text class="cls-3" transform="translate(244.44 109.94)"><tspan x="0" y="0">S</tspan></text>
+  </g>
+  <g id="O">
+    <path class="cls-4" d="m166,109.02s44.19-192.42,99.29,0c0,0-17.87,20.55-31.28,0,0,0-17.87-10.82-26.81,2.19,0,0-16.38,11.71-20.85.44,0,0-16.89-13.36-20.36-2.63Z"/>
+    <text class="cls-1" transform="translate(196.82 61.92)"><tspan x="0" y="0">OO</tspan></text>
+    <text class="cls-2" transform="translate(197.39 92.8)"><tspan x="0" y="0">O</tspan></text>
+  </g>
+  <g id="H">
+    <text class="cls-3" transform="translate(70.25 109.94)"><tspan x="0" y="0">H</tspan></text>
+  </g>
+  <g id="G">
+    <text class="cls-3" transform="translate(1 109.94)"><tspan x="0" y="0">G</tspan></text>
+  </g>
+</svg>
