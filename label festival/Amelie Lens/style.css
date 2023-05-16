@@ -11,9 +11,12 @@
     padding: 0;
 }
 
-ul{
+nav ul{
     display: flex;
     justify-content: center;
+}
+.list{
+    align-items: center;
 }
 
 header a{
@@ -64,15 +67,16 @@ a{
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
    padding: 50px;
+   align-items: center;
 }
 
 .grid-card{
-    display: flex;
     flex-direction: column;
     overflow: hidden;
+    align-items: center;
 }
 
 .grid-card img{
@@ -87,6 +91,9 @@ img{
 
 header img{
     width: 250px;
+}
+#herobanner{
+    text-align: center;
 }
 
 footer{
