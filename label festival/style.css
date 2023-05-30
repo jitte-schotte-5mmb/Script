@@ -2,6 +2,7 @@
 
 :root {
     --bgc-01: hsl(231, 53%, 34%);
+    --bgc-02: hsl(304, 25%, 46%);
     --txt-01: hsl(56, 100%, 50%);
 }
 
@@ -29,6 +30,51 @@ header a{
     justify-content: center;
 }
 
+header input#burger {
+    display: none;
+}
+
+header label[for="burger"] {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    display: none;
+    width: 100%;
+    padding: 1rem 1ch;
+    text-align: right;
+    cursor: pointer;
+}
+
+header label[for="burger"] i {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+@media (width <=750px) {
+    header label[for="burger"] {
+        display: block;
+    }
+
+    header nav ul {
+        position: fixed;
+        z-index: 3;
+        top: 3rem;
+        right: 0;
+        display: none;
+        padding-right: 1ch;
+        width: 100%;
+        background-color: var(--bgc-02);
+        text-align: right;
+        user-select: none;
+    }
+
+    header input#burger:checked+label[for="burger"]+nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 body {
     background-color: var(--bgc-01);
     color: var(--txt-01);
@@ -37,12 +83,12 @@ body {
 }
 
 header {
-    background-color: hsl(304, 25%, 46%);
+    background-color: var(--bgc-02);
     padding-bottom: 10px;
 }
 
 a:hover {
-    background-color:hsl(304, 25%, 46%);
+    background-color:var(--bgc-02);
 }
 
 .pagina-tittel{
@@ -130,11 +176,11 @@ footer div input{
 
 footer i {
     margin-left: 1ch;
-    color: hsl(304, 25%, 46%);
+    color: var(--bgc-02);
     font-size: 1.6rem;
 }
 
 footer i:hover {
     transform: scale(1.1);
-    background-color: hsl(56, 100%, 50%);
+    background-color: var(--txt-01);
 }
