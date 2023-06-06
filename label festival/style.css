@@ -190,3 +190,161 @@ footer i:hover {
         flex-direction: column;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+:root {
+    --bgc-01: hsl(231, 53%, 34%);
+    --txt-01: hsl(56, 100%, 50%);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+.list{
+    align-items: center;
+}
+
+header a{
+    padding: 5px;
+}
+
+.logo{
+    width: 30%;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: var(--bgc-01);
+    color: var(--txt-01);
+    font-family: "kanit", sans-serif;
+    line-height: 1;
+}
+
+header {
+    background-color: hsl(304, 25%, 46%);
+    padding-bottom: 10px;
+}
+
+a:hover {
+    background-color:hsl(304, 25%, 46%);
+}
+
+.pagina-tittel{
+    font-size: x-large;
+    text-align: center;
+    padding: 20px;
+    color: var(--bgc-01);
+    background-color:var(--txt-01);
+}
+
+.act{
+    font-size: large;
+}
+
+a{
+    color: var(--txt-01);
+    font-family: "kanit", sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+   padding: 50px;
+   align-items: center;
+}
+
+.grid-card{
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+}
+
+.grid-card img{
+    min-height: 250px;
+    object-fit: cover;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+header img{
+    width: 250px;
+}
+#herobanner{
+    text-align: center;
+}
+
+footer{
+    background-color: var(--txt-01);
+    padding: 5vw 10vw;
+    color: var(--bgc-01);
+    display: flex;
+    justify-content: center;
+}
+
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+}
+
+footer ul li a{
+    color: var(--bgc-01);
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "kanit", sans-serif;
+    text-transform: uppercase;
+}
+ 
+footer div a{
+    color: var(--bgc-01);
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "kanit", sans-serif;
+    text-transform: uppercase;
+}
+
+footer div input{
+    color: black;
+    font-family: "kanit", sans-serif;
+}
+
+footer i {
+    margin-left: 1ch;
+    color: hsl(304, 25%, 46%);
+    font-size: 1.6rem;
+}
+
+footer i:hover {
+    transform: scale(1.1);
+    background-color: hsl(56, 100%, 50%);
+}
