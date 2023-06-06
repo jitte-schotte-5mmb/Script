@@ -220,6 +220,7 @@ nav ul{
 }
 .list{
     align-items: center;
+    display: inline;
 }
 
 header a{
