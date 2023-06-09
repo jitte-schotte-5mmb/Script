@@ -86,7 +86,7 @@ a{
     font-family: "kanit", sans-serif;
 }
 
-.grid-container {
+.grid-container3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
